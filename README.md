@@ -25,7 +25,7 @@ The code is shipped as a Python package that can be installed by executing
 
     pip install -e .
 
-in the main directory (where `setup.py` is located). Python version 3.6 or higher is required.
+in the `impl` directory (where `setup.py` is located). Python version 3.6 or higher is required.
 Additional dependencies such as `tensorflow` will be installed automatically.
 To generate datasets or solve instances immediately after generation, the LTL satisfiability checking tool `aalta` is required as binary.
 It can be obtained from [bitbucket](https://bitbucket.org/jl86/aalta) (earliest commit in that repository).
