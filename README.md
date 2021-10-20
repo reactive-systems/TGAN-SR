@@ -1,7 +1,7 @@
 Generating Symbolic Reasoning Problems with Transformer GANs
 ============================================================
 
-This is the implementation of the paper [Generating Symbolic Reasoning Problems with Transformer GANs](https://arxiv.org/TODO).
+This is the implementation of the paper [Generating Symbolic Reasoning Problems with Transformer GANs](https://arxiv.org/abs/2110.10054).
 
 Constructing training data for symbolic reasoning domains is challenging: On the one hand existing instances are typically hand-crafted and too few to be trained on directly, on the other hand synthetically generated instances are often hard to evaluate in terms of their meaningfulness.
 
@@ -14,7 +14,7 @@ The generated data can be used as a substitute for real training data, and, espe
 For example, the models produced the following correct mathematical expressions:
 
 <p align="center">
-    <img src="images/ex1.png" style="width:60vw">
+    <img src="images/ex1.png" style="width:37vw">
 </p>
 and the following correct Linear-time Temporal Logic (LTL) formulas used in verification:
 
